@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.1",
+  "description": "An opinionated eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "precommit": "test",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "devrsi0n",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "^23.0.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.13.5"
+  }
+}
