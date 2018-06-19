@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@devrsi0n/eslint-config",
   "version": "0.0.1",
   "description": "An opinionated eslint config",
   "main": "index.js",
@@ -18,10 +18,19 @@
     "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
     "jest": "^23.0.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.13.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrsi0n/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devrsi0n/eslint-config/issues"
+  },
+  "homepage": "https://github.com/devrsi0n/eslint-config#readme"
 }
