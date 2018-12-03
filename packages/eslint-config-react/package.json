@@ -1,6 +1,6 @@
 {
   "name": "@devrsi0n/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An opinionated eslint config for react project",
   "main": "index.js",
   "keywords": [
