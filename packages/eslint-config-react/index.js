@@ -15,6 +15,7 @@ module.exports = {
   env: {
     browser: true,
     jest: true,
+    mocha: true,
   },
   plugins: ['prettier'],
   rules: {
@@ -27,6 +28,7 @@ module.exports = {
       },
     ],
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
-    'react/destructuring-assignment': 'off'
+    'react/destructuring-assignment': 'off',
+    'react/jsx-wrap-multilines': 'off',
   },
 };

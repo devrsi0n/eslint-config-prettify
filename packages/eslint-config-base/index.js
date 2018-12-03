@@ -12,6 +12,11 @@ module.exports = {
       experimentalObjectRestSpread: true,
     },
   },
+  env: {
+    node: true,
+    jest: true,
+    mocha: true,
+  },
   plugins: ['prettier'],
   rules: {
     strict: 'off',
