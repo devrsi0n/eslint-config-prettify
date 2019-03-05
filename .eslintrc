@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": "./packages/eslint-config-base",
+  "extends": "./packages/eslint-config-base/index.js",
   "plugins": ["jest"],
   "env": {
     "jest/globals": true

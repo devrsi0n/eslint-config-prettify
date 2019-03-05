@@ -1,6 +1,6 @@
 {
   "name": "@devrsi0n/eslint-config-react",
-  "version": "0.1.1",
+  "version": "0.2.3",
   "description": "An opinionated eslint config for react project",
   "main": "index.js",
   "keywords": [
@@ -10,22 +10,23 @@
   "author": "devrsi0n",
   "license": "MIT",
   "engines": {
-    "node": ">= 6"
+    "node": ">= 4"
+  },
+  "scripts": {
+    "check": "eslint --print-config index.js | eslint-config-prettier-check"
   },
   "dependencies": {
+    "@devrsi0n/eslint-config-base": "^0.1.2",
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1",
-    "prettier": "^1.15.3"
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
   },
   "peerDependencies": {
-    "eslint": "^5.9.0"
+    "eslint": "^5.15.0"
   },
   "devDependencies": {
-    "eslint": "^5.9.0"
+    "eslint": "^5.15.0"
   }
 }

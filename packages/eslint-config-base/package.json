@@ -1,6 +1,6 @@
 {
   "name": "@devrsi0n/eslint-config-base",
-  "version": "0.0.3",
+  "version": "0.1.2",
   "description": "An opinionated eslint config",
   "main": "index.js",
   "keywords": [
@@ -10,20 +10,25 @@
   "author": "devrsi0n",
   "license": "MIT",
   "engines": {
-    "node": ">= 8"
+    "node": ">= 4"
+  },
+  "scripts": {
+    "check": "eslint --print-config ./index.js | eslint-config-prettier-check"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.6.2",
-    "eslint-plugin-import": "^2.13.0",
-    "prettier": "^1.13.7"
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-prettier": "^3.0.1"
   },
   "peerDependencies": {
-    "eslint": "^5.2.0"
+    "eslint": "^5.15.0",
+    "prettier": "^1.16.4"
   },
   "devDependencies": {
-    "eslint": "^5.2.0"
+    "eslint": "^5.15.0",
+    "prettier": "^1.16.4"
   }
 }

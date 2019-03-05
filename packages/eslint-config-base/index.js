@@ -2,10 +2,9 @@
 
 module.exports = {
   parser: 'babel-eslint',
-  extends: [
-    'eslint-config-airbnb-base',
-    'eslint-config-prettier',
-  ].map(require.resolve),
+  extends: ['eslint-config-airbnb-base', 'eslint-config-prettier'].map(
+    require.resolve
+  ),
   parserOptions: {
     ecmaVersion: 2018,
     ecmaFeatures: {
@@ -13,17 +12,21 @@ module.exports = {
     },
   },
   env: {
+    browser: true,
     node: true,
     jest: true,
     mocha: true,
   },
-  plugins: ['prettier'],
+  plugins: ['jest', 'prettier'],
   rules: {
     strict: 'off',
     'no-plusplus': 'off',
-    'prettier/prettier': ['error', {
-      singleQuote: true,
-      trailingComma: 'es5',
-    }],
+    'prettier/prettier': [
+      'warn',
+      {
+        singleQuote: true,
+        trailingComma: 'es5',
+      },
+    ],
   },
 };

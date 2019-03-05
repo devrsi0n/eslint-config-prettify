@@ -1,34 +1,14 @@
 'use strict';
 
 module.exports = {
-  parser: 'babel-eslint',
-  extends: ['eslint-config-airbnb', 'eslint-config-prettier'].map(
-    require.resolve
-  ),
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
-  },
-  env: {
-    browser: true,
-    jest: true,
-    mocha: true,
-  },
-  plugins: ['prettier'],
+  extends: [
+    'eslint-config-airbnb/rules/react',
+    '@devrsi0n/eslint-config-base',
+    'eslint-config-prettier/react',
+  ].map(require.resolve),
   rules: {
     strict: 'error',
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        trailingComma: 'es5',
-      },
-    ],
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
-    'react/destructuring-assignment': 'off',
-    'react/jsx-wrap-multilines': 'off',
+    'react/destructuring-assignment': 'off'
   },
 };
