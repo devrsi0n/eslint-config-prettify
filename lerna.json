@@ -6,8 +6,10 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "publish": {
-    "ignoreChanges": ["*.md"],
-    "message":"chore: publish"
+    "ignoreChanges": [
+      "*.md"
+    ],
+    "message": "chore: publish"
   },
-  "version": "0.0.1"
+  "version": "0.1.0"
 }

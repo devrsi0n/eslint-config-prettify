@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-prettify-base",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A prettify eslint config with prettier include",
   "main": "index.js",
   "keywords": [
@@ -30,7 +30,6 @@
   },
   "devDependencies": {
     "eslint": "^6.6.0",
-
     "prettier": "^1.18.2"
   }
 }
