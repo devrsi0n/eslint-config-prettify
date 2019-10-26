@@ -1,13 +1,4 @@
 {
   "root": true,
-  "extends": "./packages/eslint-config-base/index.js",
-  "plugins": ["jest"],
-  "env": {
-    "jest/globals": true
-  },
-  "rules": {
-    "no-plusplus": "off",
-    "no-restricted-syntax": "off",
-    "import/prefer-default-export": "off"
-  }
+  "extends": "eslint-config-prettify-base"
 }

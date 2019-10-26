@@ -1,7 +1,13 @@
 {
-  "lerna": "2.11.0",
+  "lerna": "3.18.3",
   "packages": [
     "packages/*"
   ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "publish": {
+    "ignoreChanges": ["*.md"],
+    "message":"chore: publish"
+  },
   "version": "0.0.1"
 }
