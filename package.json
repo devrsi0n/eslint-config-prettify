@@ -20,10 +20,11 @@
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-lerna-scopes": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
     "eslint": "^6.6.0",
-    "eslint-config-prettify-base": "^0.1.0",
+    "eslint-config-prettify-base": "^0.1.1",
     "husky": "^3.0.9",
+    "jest": "^24.9.0",
     "lerna": "^3.18.3",
     "lint-staged": "^9.4.2",
     "prettier": "^1.18.2"
