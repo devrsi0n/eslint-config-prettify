@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "release": "lerna version --conventional-commits",
+    "publish": "lerna publish from-git",
     "commit": "commit",
     "build": "lerna run --stream --toposort build",
     "clean": "yarn workspaces run clean",
@@ -19,9 +20,9 @@
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
+    "@commitlint/config-lerna-scopes": "^8.2.0",
     "eslint": "^6.6.0",
-    "eslint-config-prettify-base": "^0.0.2",
+    "eslint-config-prettify-base": "^0.1.0",
     "husky": "^3.0.9",
     "lerna": "^3.18.3",
     "lint-staged": "^9.4.2",
