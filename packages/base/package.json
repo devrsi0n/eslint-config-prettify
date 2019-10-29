@@ -15,8 +15,16 @@
   "scripts": {
     "check": "eslint --print-config ./index.js | eslint-config-prettier-check"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrsi0n/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devrsi0n/eslint-config/issues"
+  },
   "dependencies": {
     "babel-eslint": "^10.0.3",
+    "confusing-browser-globals": "^1.0.9",
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1"

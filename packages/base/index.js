@@ -13,10 +13,7 @@ const localRules = [
 
 module.exports = {
   parser: 'babel-eslint',
-  extends: [
-    ...localRules,
-    'plugin:prettier/recommended',
-  ],
+  extends: [...localRules, 'plugin:prettier/recommended'],
   parserOptions: {
     ecmaVersion: 2019,
     ecmaFeatures: {
