@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-prettify-ts-react",
+  "version": "0.1.0",
+  "description": "A prettify eslint config for TypeScript and React with prettier include",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "devrsi0n",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {
+    "check": "eslint --print-config ./index.js | eslint-config-prettier-check"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "eslint-config-prettify-ts-base": "^0.1.0",
+    "eslint-config-prettify-react": "^0.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.6.0",
+    "prettier": "^1.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "prettier": "^1.18.2"
+  }
+}
