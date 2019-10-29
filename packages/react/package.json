@@ -15,11 +15,17 @@
   "scripts": {
     "check": "eslint --print-config index.js | eslint-config-prettier-check"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrsi0n/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devrsi0n/eslint-config/issues"
+  },
   "dependencies": {
     "eslint-config-prettify-base": "^0.1.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-mdx": "^1.6.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.2.0"
   },

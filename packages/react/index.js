@@ -7,9 +7,5 @@ const localRules = [
 ].map(require.resolve);
 
 module.exports = {
-  extends: [
-    ...localRules,
-    'eslint-config-prettify-base',
-    'prettier/react',
-  ],
+  extends: [...localRules, 'eslint-config-prettify-base', 'prettier/react'],
 };
