@@ -1,6 +1,6 @@
 // 'use strict';
 
-const reactConfig = require('../react');
+const reactConfig = require('eslint-config-prettify-react');
 const filteredConfig = reactConfig.extends.filter((item) => item !== 'eslint-config-prettify-base');
 
 module.exports = {

@@ -15,6 +15,13 @@
   "scripts": {
     "check": "eslint --print-config ./index.js | eslint-config-prettier-check"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrsi0n/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devrsi0n/eslint-config/issues"
+  },
   "dependencies": {
     "eslint-config-prettify-react": "^0.1.1",
     "eslint-config-prettify-ts-base": "^0.1.1",

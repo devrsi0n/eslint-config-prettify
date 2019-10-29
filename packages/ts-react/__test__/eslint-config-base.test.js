@@ -1,4 +1,4 @@
-import config from '..';
+const config = require('..');
 
 describe('eslint config base', () => {
   it('should import correctly', () => {
