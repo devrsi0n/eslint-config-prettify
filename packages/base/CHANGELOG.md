@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/devrsi0n/eslint-config/compare/v0.1.1...v0.1.2) (2019-10-29)
+
+
+### Bug Fixes
+
+* **base:** jest test fail and add repo info in package.json ([8e0bd07](https://github.com/devrsi0n/eslint-config/commit/8e0bd07284d325d58003b268093eca2af2db7536))
+
+
+
+
+
 ## [0.1.1](https://github.com/devrsi0n/eslint-config/compare/v0.1.0...v0.1.1) (2019-10-29)
 
 

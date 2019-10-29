@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/devrsi0n/eslint-config/compare/v0.1.1...v0.1.2) (2019-10-29)
+
+
+### Bug Fixes
+
+* **all:** commit lint rules ([905361b](https://github.com/devrsi0n/eslint-config/commit/905361b4d1972cceafe996721851d22e890a1843))
+* **base:** jest test fail and add repo info in package.json ([8e0bd07](https://github.com/devrsi0n/eslint-config/commit/8e0bd07284d325d58003b268093eca2af2db7536))
+* **react:** jest test fail and add repo info in package.json ([1d21b73](https://github.com/devrsi0n/eslint-config/commit/1d21b730daa113596d2ffdc8c6b600c62bcab679))
+* **ts-base:** jest test fail and add repo info in package.json ([da9e062](https://github.com/devrsi0n/eslint-config/commit/da9e062b7773f404c064ee8b79b3e63c99268db1))
+* **ts-react:** jest test fail and add repo info in package.json ([bbed048](https://github.com/devrsi0n/eslint-config/commit/bbed0486d83b8f847fedee4b8aa2a88315f99b04))
+
+
+
+
+
 ## [0.1.1](https://github.com/devrsi0n/eslint-config/compare/v0.1.0...v0.1.1) (2019-10-29)
 
 
