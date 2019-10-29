@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/devrsi0n/eslint-config/compare/v0.1.0...v0.1.1) (2019-10-29)
+
+
+### Bug Fixes
+
+* **eslint-config-prettify-base:** rename directory eslint-config-base -> base, and using local rules instead of airbnb-base ([b3dbe49](https://github.com/devrsi0n/eslint-config/commit/b3dbe4969fd030ea72176861bcd394a586d725e9))
+
+
+
+
+
 # 0.1.0 (2019-10-26)
 
 
