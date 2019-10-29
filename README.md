@@ -3,7 +3,7 @@
 [![version](https://img.shields.io/npm/v/eslint-config-prettify-base.svg?style=flat-square)](http://npm.im/eslint-config-prettify-base)
 [![MIT License](https://img.shields.io/npm/l/eslint-config-prettify-base.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=flat-square)](https://lerna.js.org/)
 
 A prettify eslint config with prettier include. Support for React/TypeScript/ES2019.
 
@@ -38,7 +38,7 @@ Upgrade your ESLint config
 
 ### tsconfig path
 
-```json
+```js
 {
   "extends": ["eslint-config-prettify-base"],
   "settings": {
@@ -48,11 +48,9 @@ Upgrade your ESLint config
     "import/resolver": {
       // use <root>/tsconfig.json
       "typescript": {
-        "alwaysTryTypes": true // always try to resolve types under `<root/>@types` directory even it doesn't contain any source code, like `@types/unist`
-      },
-
-      // use <root>/path/to/folder/tsconfig.json
-      "typescript": {
+        // always try to resolve types under `<root/>@types` directory even it doesn't contain any source code, like `@types/unist`
+        "alwaysTryTypes": true,
+        // use <root>/path/to/folder/tsconfig.json
         "directory": "./path/to/folder"
       },
 
