@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-prettify-base",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A prettify eslint config with prettier include",
   "main": "index.js",
   "keywords": [
