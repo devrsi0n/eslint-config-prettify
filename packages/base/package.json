@@ -20,7 +20,7 @@
     "url": "git+https://github.com/devrsi0n/eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/devrsi0n/eslint-config/issues"
+    "url": "https://github.com/devrsi0n/eslint-config-prettify/issues"
   },
   "dependencies": {
     "babel-eslint": "^10.0.3",
