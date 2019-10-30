@@ -34,9 +34,9 @@ Upgrade your ESLint config
 
 ## Configuration
 
-`eslint-config-prettify-ts-react` and `eslint-config-prettify-ts-base` using command executing directory to detect `tsconfig.json`(for TypeScript path alias), try below configuration if you meet `Unable to resolve path to module ‘xxx’` error.
-
 ### tsconfig path
+
+`eslint-config-prettify-ts-react` and `eslint-config-prettify-ts-base` using command executing directory to detect `tsconfig.json`(for TypeScript path alias), try below configuration if you meet `Unable to resolve path to module ‘xxx’` error.
 
 ```js
 {
@@ -74,7 +74,7 @@ Upgrade your ESLint config
 
 ## Development
 
-This mono repo managed by [lerna](https://lerna.js.org/) and yarn workspace.
+This mono repo managed by [lerna](https://lerna.js.org/) with yarn workspace.
 
 ### Install dependencies
 

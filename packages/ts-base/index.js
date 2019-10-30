@@ -39,7 +39,7 @@ module.exports = {
     '@typescript-eslint/camelcase': 'warn',
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/no-unused-vars': ['warn', { varsIgnorePattern: '_' }],
+    '@typescript-eslint/no-unused-vars': ['warn', { "argsIgnorePattern": "_" }],
   },
   // overrides: [
   //   {
