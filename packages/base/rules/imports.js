@@ -152,12 +152,12 @@ module.exports = {
 
     // Require a newline after the last import/require in a group
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
-    'import/newline-after-import': 'error',
+    'import/newline-after-import': 'warn',
 
     // Require modules with a single export to use a default export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
     // 'import/prefer-default-export': 'error',
-    'import/prefer-default-export': 'off',
+    'import/prefer-default-export': 'warn',
 
     // Restrict which files can be imported in a given folder
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md
@@ -173,7 +173,7 @@ module.exports = {
 
     // Forbid require() calls with expressions
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
-    'import/no-dynamic-require': 'error',
+    'import/no-dynamic-require': 'warn',
 
     // prevent importing the submodules of other modules
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md
