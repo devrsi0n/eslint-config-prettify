@@ -5,20 +5,23 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=flat-square)](https://lerna.js.org/)
 
-A prettify eslint config with prettier include. Support for React/TypeScript/ES2019.
+A set of prettify eslint configs with prettier and Airbnb rules include. Support for React/TypeScript/ES2019/Node.
 
 This repo container 4 npm packages.
 
-- `eslint-config-prettify-base` for ES2019 project
+- `eslint-config-prettify-base` for ES2019 or Node project
 - `eslint-config-prettify-react` for React JavaScript project
 - `eslint-config-prettify-ts-base` for vanilla TypeScript project
 - `eslint-config-prettify-ts-react` for React TypeScript project
 
 ## Quick start
 
+Chose proper config 👆, and install dependencies. For example, `eslint-config-prettify-base`:
+
 ```bash
-yarn add --dev eslint-config-prettify-base
-# Or using npm if you like
+# Just those two dependencies, no need for extra parser, plugins or configs
+yarn add --dev eslint eslint-config-prettify-base
+# Or using npm if you prefer
 npm install --save-dev eslint-config-prettify-base
 ```
 
@@ -74,7 +77,7 @@ Upgrade your ESLint config
 
 ## Development
 
-This mono repo managed by [lerna](https://lerna.js.org/) with yarn workspace.
+This monorepo managed by [lerna](https://lerna.js.org/) with yarn workspace.
 
 ### Install dependencies
 
