@@ -1,12 +1,17 @@
 // 'use strict';
 
 const reactConfig = require('eslint-config-prettify-react');
-const filteredConfig = reactConfig.extends.filter((item) => item !== 'eslint-config-prettify-base');
+const filteredConfig = reactConfig.extends.filter(
+  item => item !== 'eslint-config-prettify-base'
+);
 
 module.exports = {
   extends: [...filteredConfig, 'eslint-config-prettify-ts-base'],
   rules: {
-    'react/jsx-filename-extension': ['error', { extensions: ['.tsx', '.jsx', '.js'] }],
+    'react/jsx-filename-extension': [
+      'error',
+      { extensions: ['.tsx', '.jsx', '.js'] },
+    ],
     // Turn off prop-types, using TypeScript type instead
     'react/prop-types': ['off', {}],
   },
