@@ -13,12 +13,11 @@ module.exports = {
     es6: true,
   },
   extends: [
-    'eslint-config-prettify-base',
-
     'plugin:@typescript-eslint/recommended',
     // 'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/typescript',
     'prettier/@typescript-eslint',
+    'eslint-config-prettify-base',
   ],
   plugins: ['@typescript-eslint'],
   settings: {
@@ -36,10 +35,13 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/interface-name-prefix': 'off',
-    '@typescript-eslint/camelcase': 'warn',
+    '@typescript-eslint/camelcase': [
+      'warn',
+      { properties: 'never', ignoreDestructuring: false },
+    ],
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/no-unused-vars': ['warn', { "argsIgnorePattern": "_" }],
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '_' }],
   },
   // overrides: [
   //   {
