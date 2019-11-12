@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/devrsi0n/eslint-config/compare/v0.1.4...v0.1.5) (2019-11-12)
+
+
+### Bug Fixes
+
+* **react:** lower eslint version ([d8e596a](https://github.com/devrsi0n/eslint-config/commit/d8e596a57bc64e541854119d597155a87c29dab3))
+
+
+
+
+
 ## [0.1.4](https://github.com/devrsi0n/eslint-config/compare/v0.1.3...v0.1.4) (2019-11-05)
 
 

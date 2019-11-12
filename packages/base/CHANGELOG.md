@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/devrsi0n/eslint-config/compare/v0.1.4...v0.1.5) (2019-11-12)
+
+
+### Bug Fixes
+
+* **base:** fixed prettier configs ([9428e23](https://github.com/devrsi0n/eslint-config/commit/9428e23460a76f4a33434ced9d69ea58254c62da))
+
+
+
+
+
 ## [0.1.4](https://github.com/devrsi0n/eslint-config/compare/v0.1.3...v0.1.4) (2019-11-05)
 
 

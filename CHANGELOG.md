@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/devrsi0n/eslint-config-prettify/compare/v0.1.4...v0.1.5) (2019-11-12)
+
+
+### Bug Fixes
+
+* **base:** fixed prettier configs ([9428e23](https://github.com/devrsi0n/eslint-config-prettify/commit/9428e23460a76f4a33434ced9d69ea58254c62da))
+* **react:** lower eslint version ([d8e596a](https://github.com/devrsi0n/eslint-config-prettify/commit/d8e596a57bc64e541854119d597155a87c29dab3))
+* **ts-base:** remove unused peer dependencies ([0609094](https://github.com/devrsi0n/eslint-config-prettify/commit/0609094b44ab100718252a533326b9556a845382))
+* **ts-react:** remove unused dependencies ([e71f10e](https://github.com/devrsi0n/eslint-config-prettify/commit/e71f10e385b5ce0ca2f6202255a4c197c832b810))
+
+
+
+
+
 ## [0.1.4](https://github.com/devrsi0n/eslint-config/compare/v0.1.3...v0.1.4) (2019-11-05)
 
 

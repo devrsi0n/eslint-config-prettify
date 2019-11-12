@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-prettify-ts-react",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A prettify eslint config for TypeScript and React with prettier include",
   "main": "index.js",
   "keywords": [
@@ -23,8 +23,8 @@
     "url": "https://github.com/devrsi0n/eslint-config-prettify/issues"
   },
   "dependencies": {
-    "eslint-config-prettify-react": "^0.1.4",
-    "eslint-config-prettify-ts-base": "^0.1.4"
+    "eslint-config-prettify-react": "^0.1.5",
+    "eslint-config-prettify-ts-base": "^0.1.5"
   },
   "peerDependencies": {
     "eslint": "^6.0.0"
