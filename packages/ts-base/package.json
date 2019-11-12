@@ -23,19 +23,18 @@
     "url": "https://github.com/devrsi0n/eslint-config-prettify/issues"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.5.0",
-    "@typescript-eslint/parser": "^2.5.0",
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
     "eslint-config-prettify-base": "^0.1.4",
     "eslint-import-resolver-typescript": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": "^6.6.0",
-    "prettier": "~1.18.2",
-    "typescript": "~3.6.4"
+    "eslint": "^6.0.0",
+    "typescript": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
-    "prettier": "~1.18.2",
-    "typescript": "~3.6.4"
+    "prettier": "~1.19.1",
+    "typescript": "~3.7.2"
   }
 }
