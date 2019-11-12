@@ -39,7 +39,7 @@ module.exports = {
 
     // disallow declaration of variables that are not used in the code
     'no-unused-vars': [
-      'error',
+      'warn',
       { vars: 'all', args: 'after-used', ignoreRestSiblings: true },
     ],
 
