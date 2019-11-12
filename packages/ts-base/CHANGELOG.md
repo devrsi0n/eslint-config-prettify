@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/devrsi0n/eslint-config/compare/v0.1.5...v0.1.6) (2019-11-12)
+
+
+### Bug Fixes
+
+* **ts-base:**  recommended configs override ([714054b](https://github.com/devrsi0n/eslint-config/commit/714054bfb9b471af5f319b01b73f1f41c36b02b0))
+
+
+
+
+
 ## [0.1.5](https://github.com/devrsi0n/eslint-config/compare/v0.1.4...v0.1.5) (2019-11-12)
 
 
