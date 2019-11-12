@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "release": "lerna version --conventional-commits",
-    "publish": "lerna publish from-git",
+    "publish": "lerna publish from-git --registry https://registry.npmjs.org",
     "commit": "commit",
     "build": "lerna run --stream --toposort build",
     "clean": "yarn workspaces run clean",

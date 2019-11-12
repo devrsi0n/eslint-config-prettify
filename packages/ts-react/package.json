@@ -32,5 +32,6 @@
   "devDependencies": {
     "eslint": "^6.6.0",
     "prettier": "^1.18.2"
-  }
+  },
+  "gitHead": "8fe2dee6ccabd2d5b27aa8101064d79fab914ac8"
 }
