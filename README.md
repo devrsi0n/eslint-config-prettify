@@ -20,9 +20,9 @@ Chose proper config 👆, and install dependencies. For example, `eslint-config-
 
 ```bash
 # Just those two dependencies, no need for extra parser, plugins or configs
-yarn add --dev eslint eslint-config-prettify-base
+yarn add --dev eslint eslint-config-prettify-base prettier
 # Or using npm if you prefer
-npm install --save-dev eslint-config-prettify-base
+npm install --save-dev eslint eslint-config-prettify-base prettier
 ```
 
 Upgrade your ESLint config
