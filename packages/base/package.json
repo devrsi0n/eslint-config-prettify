@@ -25,16 +25,16 @@
   "dependencies": {
     "babel-eslint": "^10.0.3",
     "confusing-browser-globals": "^1.0.9",
-    "eslint-config-prettier": "^6.4.0",
+    "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1"
   },
   "peerDependencies": {
-    "eslint": "^6.6.0",
-    "prettier": "^1.18.2"
+    "eslint": "^6.0.0",
+    "prettier": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   }
 }

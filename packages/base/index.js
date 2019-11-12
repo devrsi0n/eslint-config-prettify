@@ -31,12 +31,6 @@ module.exports = {
   rules: {
     strict: 'off',
     'no-plusplus': 'off',
-    'prettier/prettier': [
-      'warn',
-      {
-        singleQuote: true,
-        trailingComma: 'es5',
-      },
-    ],
+    'prettier/prettier': 'warn',
   },
 };
