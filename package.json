@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "release": "lerna version --conventional-commits",
+    "release": "lerna version --conventional-commits --create-release github",
     "publish": "lerna publish from-git --registry https://registry.npmjs.org",
     "commit": "commit",
     "build": "lerna run --stream --toposort build",

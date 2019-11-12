@@ -13,11 +13,11 @@ module.exports = {
     es6: true,
   },
   extends: [
-    'plugin:@typescript-eslint/recommended',
     // 'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/typescript',
     'prettier/@typescript-eslint',
     'eslint-config-prettify-base',
+    'plugin:@typescript-eslint/recommended',
   ],
   plugins: ['@typescript-eslint'],
   settings: {
