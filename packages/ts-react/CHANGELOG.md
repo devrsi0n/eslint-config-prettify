@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/devrsi0n/eslint-config/compare/v0.1.6...v0.1.7) (2019-12-18)
+
+**Note:** Version bump only for package eslint-config-prettify-ts-react
+
+
+
+
+
 ## [0.1.6](https://github.com/devrsi0n/eslint-config/compare/v0.1.5...v0.1.6) (2019-11-12)
 
 **Note:** Version bump only for package eslint-config-prettify-ts-react

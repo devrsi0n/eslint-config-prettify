@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/devrsi0n/eslint-config-prettify/compare/v0.1.6...v0.1.7) (2019-12-18)
+
+
+### Bug Fixes
+
+* **base:** allow bitwise ([22ff81e](https://github.com/devrsi0n/eslint-config-prettify/commit/22ff81e6385b7ddd77ff3f4834e06c7860ce8996))
+
+
+
+
+
 ## [0.1.6](https://github.com/devrsi0n/eslint-config-prettify/compare/v0.1.5...v0.1.6) (2019-11-12)
 
 

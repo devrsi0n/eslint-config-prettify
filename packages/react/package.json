@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-prettify-react",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A prettify eslint config for react with prettier include",
   "main": "index.js",
   "keywords": [
@@ -23,7 +23,7 @@
     "url": "https://github.com/devrsi0n/eslint-config-prettify/issues"
   },
   "dependencies": {
-    "eslint-config-prettify-base": "^0.1.6",
+    "eslint-config-prettify-base": "^0.1.7",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
