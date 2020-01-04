@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/devrsi0n/eslint-config-prettify/compare/v0.1.7...v0.1.8) (2020-01-04)
+
+
+### Bug Fixes
+
+* ts extensions ([566898e](https://github.com/devrsi0n/eslint-config-prettify/commit/566898ef6abea897d33ae66d8c9a3a2254c6b45e))
+
+
+
+
+
 ## [0.1.7](https://github.com/devrsi0n/eslint-config-prettify/compare/v0.1.6...v0.1.7) (2019-12-18)
 
 

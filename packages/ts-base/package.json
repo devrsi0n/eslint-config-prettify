@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-prettify-ts-base",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A prettify eslint config for TypeScript with prettier include",
   "main": "index.js",
   "keywords": [
@@ -25,7 +25,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.7.0",
     "@typescript-eslint/parser": "^2.7.0",
-    "eslint-config-prettify-base": "^0.1.7",
+    "eslint-config-prettify-base": "^0.1.8",
     "eslint-import-resolver-typescript": "^2.0.0"
   },
   "peerDependencies": {
